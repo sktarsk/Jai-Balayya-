@@ -659,7 +659,7 @@ async def auto_filter(client, msg, spoll=False):
             files, offset, total_results = await get_search_results(search.lower(), offset=0, filter=True)
             if not files:
                 await client.send_message(req_channel, f"#REQUESTED_LOGS \n\nCONTENT NAME:'{search}' \nREQUESTED BY : {message.from_user.first_name}\nUSER ID : {message.from_user.id}", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🏹 Mark as Done 🦋", callback_data="close_data")]]))
-                await message.reply_text(text=f"Hello '{message.from_user.first_name}' 😐. \n\n Your request has been sent to our admin ! \n\n ❤️ THANK YOU ❤️ <a href='https://t.me/+5WyBJnvm6P5jMDY1'>Channel Name</a>")
+                await message.reply_text(text=f"Hello '{message.from_user.first_name}' 😃. \n\n Your request has been sent to our admin ! \n\n ❤️ THANK YOU ❤️ <a href='https://t.me/+ACwXEFrK7rg0NjY1'>TEAM MOVIES</a>")
                 if settings["spell_check"]:
                     return await advantage_spell_chok(msg)
                 else:
