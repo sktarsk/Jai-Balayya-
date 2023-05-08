@@ -20,7 +20,6 @@ from database.filters_mdb import (
     find_filter,
     get_filters,
 )
-
 import logging
 
 logger = logging.getLogger(__name__)
